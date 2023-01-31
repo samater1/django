@@ -1,0 +1,1 @@
+# you all understand the main concept to start developing django web application development
