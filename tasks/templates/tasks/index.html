@@ -6,7 +6,12 @@
         {% for task in tasks %}
           <li>{{ task }}</li>
         {% endfor %}
-    </ul>
+    </ul><br>
+    <ol>
+      {% for name in names %}
+         <li>{{name}}</li>
+         {% endfor %}
+    </ol>
     <!-- task:task means to fix name space colision  -->
     <a href="{% url 'tasks:add' %}">Add new Tasks</a>
  {% endblock %}
